@@ -8,6 +8,9 @@ public class TestChar {
 		char ch = '\u9999';
 		System.out.println(a);
 		System.out.println(ch);
+		
+		char c = 97;
+		System.out.println(c);
 	}
 
 }
