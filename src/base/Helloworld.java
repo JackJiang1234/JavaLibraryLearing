@@ -20,6 +20,7 @@ public class Helloworld {
 		byte a = 56;
 		long bigValue = 9999999999999L;
 		int binVal = 0b1010111;
+		
 	    System.out.println(a);
 	    System.out.println(bigValue);
 	    System.out.println(binVal);
