@@ -11,6 +11,13 @@ public class TestChar {
 		
 		char c = 97;
 		System.out.println(c);
+		
+		//byte b = 9;
+		/*
+		 * char ------>
+		 * 					int --->long---->float--->double
+		 * byte->short-->
+		 * */
 	}
 
 }

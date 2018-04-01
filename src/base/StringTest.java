@@ -10,6 +10,9 @@ public class StringTest {
 		{
 			System.out.println(str.codePointAt(i));
 		}
+		
+		System.out.println(3 + 4 + "hello");
+		System.out.println("hello" + 3 + 4);
 	}
 
 }
