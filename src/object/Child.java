@@ -1,4 +1,4 @@
-package Object;
+package object;
 
 import static java.lang.System.*;
 
@@ -32,6 +32,10 @@ public class Child extends Base {
 	public void say() {
 		out.println("this is child.");
 		super.say();
+	}
+	
+	public void say2(){
+		out.println("say2");
 	}
 
 	public static void main(String[] args) {

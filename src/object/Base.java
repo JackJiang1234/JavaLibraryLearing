@@ -1,8 +1,8 @@
-package Object;
+package object;
 
 import static java.lang.System.*;
 
-public class Base {
+public abstract class Base {
 	public static int staticField = setStaticField("1");
 	public int instanceField = setInstanceField();
 
@@ -33,4 +33,6 @@ public class Base {
 	public void say() {
 		out.println("this is base.");
 	}
+	
+	public abstract void say2();
 }
