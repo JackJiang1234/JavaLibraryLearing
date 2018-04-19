@@ -10,6 +10,7 @@ public class DateTest {
 		System.out.println(d2);
 		System.out.println(d1.compareTo(d2));
 		System.out.println(d1.before(d2));
+		
 	}
 
 }
