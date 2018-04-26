@@ -7,6 +7,7 @@ public class BasicTest {
 	public static void main(String[] args) {
 		setTest();
 		listTest();
+		mapTest();
 	}
 
 	static void setTest() {
@@ -30,5 +31,21 @@ public class BasicTest {
 		list.add("aa");
 		System.out.println(list.size());
 		System.out.println("list test end.");
+	}
+	
+	static void queuTest(){
+		
+	}
+	
+	static void mapTest(){
+		System.out.println("map test begin...");
+		
+		HashMap<String, String> map = new HashMap<>();
+		map.put("aa", "bb");
+		map.put("cc", "dd");
+		
+		map.forEach((k, v) -> System.out.println(k + "->" + v));
+		
+		System.out.println("map test end.");
 	}
 }
