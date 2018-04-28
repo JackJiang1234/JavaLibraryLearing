@@ -26,9 +26,10 @@ public class BasicTest {
 
 	static void listTest() {
 		System.out.println("list test begin...");
-		ArrayList<Object> list = new ArrayList<>();
+		ArrayList<String> list = new ArrayList<>();
 		list.add("aa");
-		list.add("aa");
+		list.add("bb");
+		list.removeIf(item -> item.length() == 1);
 		System.out.println(list.size());
 		System.out.println("list test end.");
 	}
