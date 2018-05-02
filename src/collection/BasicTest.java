@@ -4,12 +4,8 @@ import java.util.*;
 
 public class BasicTest {
 
-	public static void main(String[] args) {
-		setTest();
-		listTest();
-	}
-
 	static void setTest() {
+
 		System.out.println("set test begin...");
 		// TODO Auto-generated method stub
 		HashSet<Object> set = new HashSet<>();
@@ -25,10 +21,11 @@ public class BasicTest {
 
 	static void listTest() {
 		System.out.println("list test begin...");
-		ArrayList<Object> list = new ArrayList<>();
+		ArrayList<String> list = new ArrayList<>();
 		list.add("aa");
 		list.add("aa");
 		System.out.println(list.size());
+		System.out.println(String.join(",", list));
 		System.out.println("list test end.");
 	}
 }
