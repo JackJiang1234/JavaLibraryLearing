@@ -30,6 +30,7 @@ public class BasicTest {
 		ArrayList<String> list = new ArrayList<>();
 		list.add("aa");
 		list.add("bb");
+		list.add("cc");
 		list.removeIf(item -> item.length() == 1);
 		System.out.println(list.size());
 		System.out.println(String.join(",", list));
@@ -37,6 +38,7 @@ public class BasicTest {
 	}
 	
 	static void queuTest(){
+		
 		
 	}
 	
