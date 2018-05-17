@@ -10,6 +10,7 @@ public class FileTest {
 		File f = new File("readme.md");
 		System.out.println(f.getName());
 		System.out.println(f.getAbsolutePath());
+		System.out.println(f.getParent());
 		
 		System.out.println(File.pathSeparator);
 		System.out.println(File.separator);
