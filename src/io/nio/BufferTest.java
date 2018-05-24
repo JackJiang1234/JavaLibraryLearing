@@ -35,6 +35,6 @@ public class BufferTest
 		System.out.println("执行绝对读取后，position = "
 			+ buff.position());
 		
-		ByteBuffer.allocateDirect(100);
+		
 	}
 }
