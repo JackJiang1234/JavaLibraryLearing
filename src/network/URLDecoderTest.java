@@ -18,5 +18,7 @@ public class URLDecoderTest
 		String urlStr = URLEncoder.encode(
 			"疯狂Android讲义" , "GBK");
 		System.out.println(urlStr);
+		
+		System.out.println( 5 / 3);
 	}
 }
