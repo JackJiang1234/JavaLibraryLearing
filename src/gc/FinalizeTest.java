@@ -10,7 +10,7 @@ public class FinalizeTest {
 	public static void main(String[] args) {
 		new FinalizeTest();
 		System.gc();
-		//System.runFinalization();
+		System.runFinalization();
 		
 		ft.info();
 	}
